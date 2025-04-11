@@ -21,9 +21,6 @@ const getTodos = async () => {
 export default async function Home() {
   const todos = await getTodos();
 
-  (function () {
-    console.log("krishna");
-  })();
   return (
     <>
       <header className="flex justify-between items-center mb-4 ">
